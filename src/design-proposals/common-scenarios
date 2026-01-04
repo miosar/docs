@@ -1,0 +1,25 @@
+# Common game scenarios
+
+## Overview
+
+### The purpose of this design document
+
+- This is a free-use design document intended to be used in the future development of funky station. 
+  - Consider these scenarios as a mind experiment. If you propose a change you would like to make, think about how it might affect the following situations.
+  - You may rewrite these as needed, as long as you keep the original intact.
+
+  #### Example scenario - A security officer gets shot while fighting a syndicate agent with a Hristov. - miosar
+
+  ( The proposed changes are as follows - 1.Moving while bleeding causes you to lose blood a lot faster, which is doubled if you are dragged on the floor. This multiplier is nulled if you are on a roller bed. 2.Tourniquets damage the limb they are applied on to reference the real life side effects of applying one. 3.Natural bleedstack regeneration is stopped if the person is suffering from 30 brute damage or more.) 
+    • A secoff gets shot, their right leg penetrated by an anti-material round. They run behind a corner, quickly getting cover. This causes the gunshot wound to bleed worse due to the adrenaline and not keeping pressure on the wound.
+    • Their mind gets fuzzy, and they realize they must stop the blood-loss as fast as they can. It was a Hristov round, so gauze or a suture won't be enough. They apply a tourniquet on their leg to slow the bleeding by a lot, although not enough to stop it fully.
+    • They grit their teeth and aim their gun at the attacker, firing off a few shots. As the other secoffs rush past to assist, they slowly stand up and try to move to med.
+    • Their leg wound gets worse, and the lack of fresh blood causes it to swell. Finally, they stumble to medical, leaving a small trail of blood behind them.
+    • Medical removes the tourniquet and starts applying pressure ( could be an action? Still need to brainstorm this ) and medicine. An IV is hooked up to the secoff.
+    • The paramedic screams at the officer. "Next time wait for me to grab you on a roller bed instead of pissing off the janitor!"
+    • The secoff, thanks to the tourniquet, lost about 20% of their total blood, the amount lost was lowered by the slowdown from their wounds and them walking instead of running.
+1. Explaining the changes - remember to first clearly show the proposed changes. The scenario might not make them as clear at first as you may think, and this is necessary to be able to view it under a higher scrutiny.
+2. The scenario - It should be a situation that may happen in game, one that is also easy to modify to show a different way your changes may affect things. Looking at the example - The Hristov may be easily changed for a Wyvern, CR-20 or a shrapnel granade to show how different types of damage affect the bleeding. The security officer may be changed out for a doctor, assistant or a bartender to show different ways to stop the bleeding, such as gauze, a welder or how a lack of instant medical care might affect the amount of blood lost. The way they get to medical can easily be changed as well - the paramedic may arrive and either treat them on the spot or take them to medical on a roller bed. Perhaps the victim falls onto the floor due to losing too much blood?
+3. The in-game consequences - A quick overview that is a summary of what happened. The numbers, in other words. They do not have to be specific, but it should clearly explain what the consequences of the situation were for the player and how their actions affected what followed the starting point of the scenario.
+
+Feel free to change this design doc, adding your own scenarios based on the example one!
