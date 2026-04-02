@@ -2,11 +2,11 @@
 
 | Designers | Implemented | Links |
 |---|---|---|
-| miosar | Needs code! | No links so far |
+| miosar | Needs coders and spriters! | No google doc or anything yet |
 
 ## Overview
 
-Proposes a rework of the changeling antagonist, recreated in a form that is much more clear on its purpose as a combined stealth/loud antag based on flesh horror, impersonation and „The Thing”
+Proposes a rework of the changeling antagonist, recreated in a form that is much more clear on its purpose as a combined stealth/loud antag based on flesh horror, impersonation and „The Thing”. This took me several months of work, some of which I got help with by asking around other departments and getting professors that have game design degrees interested. Hope you enjoy the results of 95% mine and 5% other irl people's work!
 
 ## Background
 
@@ -38,19 +38,15 @@ The horror form is a clearly non-humanoid mass of flesh. However, using this for
 
 Turning into the horror form is instant, and causes the changeling to fully restore its health, stamina, go out of stun, destroy any bola or cuffs on its body and emit a horrific shriek that causes anyone nearby to be stunned. Leaving this form requires a 5 second doafter. You are not able to wear any armour in this form ( it has in-built armour with the same statistics as the current chitinous armour ). In addition, your hands are replaced with borg-like flesh modules. This form does not share abilities with the stealth form, but you can buy abilities that are restricted to it. You choose to invest DNA into either horror or normal form.
 
-Horror form will not benefit in any way from your gear. All of your things will be hidden inside it and as such provide no armour, way to access your things or anything else.
-
-Horror form will require extra code for transforming. I think that it will help a lot with other antags however, as it is an important framework for wizard, heretic and syndicate transformations.
-
 In short: The stealth form will be a powerful ambush predator that will benefit from the “Maints slasher” playstyle but will be horrible in any open spaces or in any fights that are not 1v1. It will however have ways to play up its stealth aspect, which I will expand on in the Hivemind and Hivebuilding sections. The horror form will be a powerful, limited way for changelings to fight back if discovered which will be about as powerful as an ascended flesh heretic when enough of its abilities are purchased. 
 
 #### The Hivemind & reworked absorbing
 
 	To encourage identity theft, and give stakes to being a changeling victim, the hivemind will be a new mechanic that rewards absorbing more difficult targets. 
 
-	The Hivemind works the same way spectating a person in a replay works. You see the health, stamina, abilities, hands, inventory, everything the changeling does. You can talk to them using a special radio channel and you cannot be heard by anyone surrounding you and the changeling. ( This promotes organic gameplay – the killed person tells the changeling how to impersonate them, as they are now a familiar of the changeling ). The way this works is: The person absorbed by the changeling is an invisible mob placed on the ling that acts as a ghost that has its dead chat replaced with a new radio channel. This channel is heard only by the ling that absorbed the person ( This might require a rework of radio channels, or using an ability like blood cult that speaks to every person that has the same tag as the killed person and the ling )
+	The Hivemind works the same way spectating a person in a replay works. You see the health, stamina, abilities, hands, inventory, everything the changeling does. You can talk to them using a special radio channel and you cannot be heard by anyone surrounding you and the changeling. ( This promotes organic gameplay – the killed person tells the changeling how to impersonate them, as they are now a familiar of the changeling ). 
 
-	However, you are able to do more than just talk. The changeling begins with 3 abilities that allow them to spawn minions, and may evolve a 4th once they absorb enough people. The abilities are handspider, eyespy and legipede. Until you are summoned, you help the changeling with advice, and they can evolve abilities for you to use.
+	However, you are able to do more than just talk. The changeling begins with 3 abilities that allow them to spawn minions, and may evolve a 4th once they absorb enough people. The abilities are handspider, eyespy and legipede. In addition, the changeling may temporarily relinquish control ( and get it back at any time it wants to ) to any member of the hivemind, allowing them full control of the body, which will allow them to appeal to the emotions of their coworkers.
 
 The purpose of the hivemind serves a triple purpose, aligning with the “There is no winning or losing” and “Maximizing roleplay potential” and “Taking things slow” which are the main server ideas.
 
@@ -81,7 +77,7 @@ Legipede – A powerful combat minion, its purpose is to tank hits for the chang
 - Slam is a powerful, multi use ability. When used on an object, it is forced open. Locker? Open. Unbolted airlock? Open. When used on a person, it instead deals 30 blunt and deals 50 stamina damage. To compensate for its power, it has a long cooldown.
 
 Flesh Spider – The most powerful minion, which can be unlocked after 3 absorbs for 5 DNA points. When a changeling lays a flesh spider egg, it is a ghostrole that is a team antagonist with other flesh spiders ( but not the changeling ). The flesh spider deals 15 structural and 14 damage split between 8 slash and 6 poison. They also come with 5 abilities:
-- Hivebuild is an RCD like ability that allows the flesh spider to construct flesh structures. They are weaker than even normal walls but fit the theme and allow reinforcement of chokepoints. Could also have some special structures?
+- Hivebuild is an RCD like ability that allows the flesh spider to construct flesh structures. They are weaker than even normal walls but fit the theme and allow reinforcement of chokepoints. Could also have some special structures? ( Mainly traps, like reskinned landmines )
 - Bite – The same bite that other hostile spiders have.
 - Regenerate – A weaker fleshmend, injects the fleshspider with omnizine, saline and tranx acid.
 - Flesh cocoon – A stronger cocoon, completely halts rotting and has a special interaction with the next ability. Takes a lot longer to break open.
@@ -94,7 +90,7 @@ As such, I hope that by providing the changeling AND its victims to have fun wil
 #### Numbers
 
 
-#### Hives ( IGNORE THIS SECTION, IT IS UNDER HEAVY CONSIDERATION TO BE DELETED )
+#### Hives
 
 	A big problem that changelings had is that there was no reward for taking things slow and preparing for a murder. Using a cryo or lethargic sting on a victim that wandered off into maints and stabbing them to death then absorbing on the spot had the exact same result as luring them to a secluded location with a well prepared reason and hiding the body in a secret room. No longer! To encourage creating secret bases, the changeling will have a special, albeit costly hivebuilding ability.
 
@@ -205,10 +201,377 @@ Rewritten with new lore approved by G, the company handbook will dictate that li
 
 ## Abilities 
 
-### Normal Form
+Just like before, abilities will use chemicals. However, to encourage a more “burst damage” type of gameplay for changeling, they will instead have a very big chemical capacity, with a slow regeneration rate. This will mean a changeling will be able to use a lot more of their abilities in a short time – but if they do not ration their chemicals, they may be caught with their “pants down”, so to speak.
 
-TODO
+Inspired by heretic paths, mioling will have a brand new “Hive” system. While I will begin with only 2 hives, I feel like this allows more control over the tools used by the changeling and boost future customization by showing a clear way to include your own take on it if you decide to code a separate hive.
+
+The initial choice between the hives will dictate the main gameplay of the changeling: Either a more stealthy approach offered by the Fragrance hives. If they prefer a more assault-based, “loud” approach, Vraks will clearly offer the tools necessary for it to work.
+
+Hives will have a limited impact on your gameplay. You will have the main shop, but what the abilities themselves do will change. A Vraks sting will do something different from a Fragrance one.
+
+The initial shop has nothing in the normal and horror form categories, but has 2 choices in the “Hive” category.
+
+### 0. Base Abilities
+
+
+A changeling needs abilities to fight. But not all of them should have to be bought.
+
+#### 1. Shapeshift
+
+The basic shapeshifting. No chemical cost, takes 5 seconds to fully transform. Look at wizden transforming. Use ability to open wheel that looks like the heretic target menu. Pick a target to transform into them. No limit to amount of DNA held inside you. DNA isn’t used up after you transform. You can still transform into your starting DNA at any point.
+
+#### 2. Absorbing.
+
+Look at absorbing table. Costs half of your chemicals, which should take a long time to regenerate. Punishes using all of your chems at once to kill a person and forces you to plan out your kills if you want to keep them hidden.
+
+#### 3. Death Stasis
+
+Reworked a bit. Instead of being an active ability, works passively. When you die, you revive with all your chemicals after exactly 1 minute. You cannot control this in any way. If you want to die and revive, you have to beat/poison yourself until you die!
+
+#### 4. Voiceshift
+
+Built-in voice mask. Turned off by default, free to use.
+
+#### 5. Synthesis
+
+A small window pops up with a few “tetris block” shapes on the bottom and a grid on top. The player needs to fit the blocks into the grid ( Can use inventory code ) until it is fully covered. Doing so will restore a small amount of chemicals. These chemicals can go over the maximum amount you can have from your passive regeneration ( And bypass the chemical limit implant! ). A good thing to pass the time with while waiting for victims, or being imprisoned! Can have a small bonus of biomass every 5(?) or so times it is completed.
+
+### 1. The United Hives of Fragrance
+
+	Initially over a dozen hives that fought over the only non-frozen part of the changeling home planet, they were forced to unite due to the threat posed to them by the newly formed Nanotrasen Vespidae Korps. In-lore, they were the most advanced hive on the planet, being the only one with written language and a slowly developing science base. Slowly entering the Earth equivalent of the ancient times with stone buildings and domestication slowly starting to develop metalworking, their chances to create countries and societies has been fully destroyed due to Nanotrasen’s newly developed Korps kidnapping entire hives for experimentation, and after the potential of changeling tissues has been discovered, exploitation. 
+
+	Due to not having an inherent advantage like the member of Vraks that took over the original Nanotrasen expedition, their numbers quickly succumbed due to the mass-harvesting techniques used by the invaders. What was left of the once-glorious hives turned towards a stealthy approach to revenge.
+
+	Their gameplay consists of stealth, biding your time and playing the long game. Your abilities encourage impersonation and taking care of people one at a time. You have the tools necessary to lure them away, cut off any ways of running away and finishing the job. Now do it, and make your hivemates proud.
+
+### 2. The Vraks Hive
+
+	Vraks can loosely be described as a hive. Due to the inherent advantage acquired by being the strain that was picked up by the original NT expedition, they were able to evolve much quicker. Their numbers, however, were much lower. They compensated by sacrificing a bit of their natural stealth advantage to instead overwhelm their opponents with a brutal barrage of bone, acid and teeth.
+
+	Their gameplay consists of brutal, quick assassinations. You kill someone, absorb them then run away before whoever is calling for help hearing you gets a secoff. And if a secoff does arrive… You can kill them regardless. You won’t be able to take on the entire armoury, but with time… You may be VERY powerful.
+
+## Normal Form
+
+This category will be split into offensive, defensive and utility abilities. The mirrored abilities will have a V and F before them ( V for Vraks and F for Fragrance ).
+
+### Offensive
+
+#### 1. V – Armblade, F – Bone Lance ( 4 DNA )
+
+The armblade will evolve a bit from its classic use. Changes from 10 slash, 5 piercing, 7 caustic and 20 structural into 15 slash, 5 direct caustic and injecting 3u of sulfuric acid per hit ( 5 caustic damage per second, 3u per second) Taking 4 hits to kill someone unarmored, it will be a lot louder due to the forced screaming from the sulfuric acid. 
+“Allows your arm to turn into a classic, perfected weapon that works great against armor, flesh and walls.” - Ability
+“A sickening bone blade, dripping with sizzling acid. It looks horrifying.” - Item
+
+The bone lance is a sidegrade for the Fragrance path. Dealing 15 piercing damage per hit and injecting 4u of Heparin, it will quickly cause the person to lose all their blood, even if the time to kill itself will be a lot slower. It has no transformation sound or hit sound ( Completely silent! )
+“Allows your arm to turn into a recently acquired genome, that being a sharp bone lance. Causes very large amounts of bloodloss. Completely silent.”
+“A bone lance, a scarlet liquid slowly leaking from the tip. Looks sharper than a needle.” - Item
+
+#### 2. V – Bone shard, F – Bone throwing knife ( 4 DNA )
+
+The bone shards were always in an awkward spot due to being a thrown weapon. The reworked changeling will shoot them out directly instead of spawning them in the changelings hand. In addition, their damage is changed from 8 slash, 10 piercing and 45 stamina into 10 slash and 2 piercing and 20 stamina. They will be much cheaper chemical cost wise to compensate, becoming an easily spammed disposable projectile.
+“You begin storing small bone fragments in your forearm, ready to shoot several of them in quick succession if needed.” - Ability
+“A small, star shaped bone shard. Extremely sharp, but fragile.” - Item
+
+
+Bone throwing knives will be a more beefy version of this ability for the Fragrance hives. Costing 1/3 of your chemical bar(!), they will deal 15 slash and 25 piercing damage that is AP ( Armour piercing ). 
+“A long bone, covered in small fleshy tumors. The tip is extremely sharp.” - Item
+“ Your ulna and radius bones sharpen, ready to shoot out and pierce through any armour, inflicting grievous slash and piercing wounds. Costly to use due to the lost chemicals.” - Ability
+
+
+#### 3. V – Acidic bite, F – Asphyxiating bite ( 4 DNA )
+
+Stings were always controversial as a completely silent way to harm others. I will, thus, split them into two categories. Stings and bites. Stings are, like before, completely silent, but will instead be much weaker than their counterpart – bites, working like the spider bite, let your target know you just injected them with something. They are much stronger than old stings!
+
+Acidic bite – 18 units of Fluorosulfuric acid + 6 units of licoxite. Shocks the target and causes a lot of acid damage, but due to being a bite produces a loud sound ( same as equipping an arm blade ). Deal +/- 48 damage in 6 seconds. Pretty good!
+“Your fangs fill with a sizzling venom, that upon biting melt the insides of your target, causing them to spasm in pain. It is quite obvious both to the target and anyone around that they were bitten!” - Ability
+
+
+Asphyxiating bite – 7 units of heartbreaker toxin + 10u of glue. Enough to kill someone who doesn’t epi pen themselves ( Exactly 100 asphyx, but natural asphyx regen might save them. Depends, really. You should finish them off regardless. Glue makes them hallucinate+mute for 100 seconds. )
+“Your fangs fill with a powerful poison that sucks the air out of your victims lungs and prevents them from screaming. Is easily countered by epinephrine, so be careful to not rely on it too much. It is quite obvious both to the target and anyone around that they were bitten!”
+
+#### 4. Acidspit ( 2 DNA )
+
+Biodegrade felt very limiting in its use. Its only purpose was to counter cuffs ( and through that, partially the stun meta ), at a high cost while being useless in 90% of the time when you are not cuffed. I aim to change that.
+
+If not cuffed:
+You shoot out a very slow projectile that deals 15 caustic damage, 50 structural damage and a small amount of eye damage to whoever it hits. Not good by itself but its cheap and also:
+
+If cuffed:
+Melts the cuffs, deals 30 caustic damage and stuns whoever is holding you. Holding a cuffed changeling should always be a big risk, and this proves that.
+“Your spit glands turn acidic. You may spit out acid at either foes or walls, or melt any cuffs that you may be stuck in.” - Ability
+
+#### 5. F – Teeth revolver ( 5 DNA )
+
+Since Fragrance does not have a lot of tools that are powerful in an outright fight ( even their bone shards are replaced with an AP knife that is expensive chemical wise ), the revolver is going to be its main way to defend itself.
+
+Has 12 teeth “bullets” inside. The revolver itself is silent like a cobra and shoots as fast as you can click, with only a fleshy explosion imitating a muzzle flash. The projectiles deal 8 caustic and 2 piercing damage. This allows you to crit 1 unarmored person, but uniquely is countered by biohazard suits, meaning security has to actually adapt and not just bring armory gear.
+
+Its unique mechanic is simple. You pay an upfront cost of ½ of all of your chemicals for it. However, every 2 seconds it regrows a bullet ( 24 seconds for the whole capacity ). This means that as long as you keep it out for a long time, it will, over time, pay the gigantic cost off.
+
+“Forms your hand into a projectile shooting apparatus inspired by Syndicate weaponry. Its ammo recharges quickly and it has a large maximum capacity, but singular shots deal low, mostly caustic damage. Uses a lot of chemicals due to its complexity!” - Ability
+
+“A fleshy mockery of a revolver. It pulses in a steady rhythm, as if following a heartbeat. The eye on its side gazes deep into your soul.” - Item
+
+#### 6. Flesh restraints ( 4 DNA )
+
+Inspired by a ss13 mechanic regarding hard grabs and cuffing, this ability should allow lings to punish anyone trying to 1v1 them without preparation.
+
+Shoots out a projectile that, when it hits a person, applies a bola to them and deals 50 stamina damage.
+
+“Loosens your biceps and triceps muscles, allowing them to be shot out as a makeshift bola.” - Ability
+
+“Gross, intestine-like strands of meat restraining you. Get them off!” - Item
+
+#### 7. V – Mindscramble sting, F – Stomach Bug ( 4 DNA )
+
+As mentioned previously, stings will be nerfed heavily. Most of them are moved to utility, and the offensive ones will be limited in their usefulness.
+
+Mindscramble sting – Injects the target with 10u Cryptobiolin, 10u THC, 5u Impedrezene. Causes hallucinations, random speech, being drunk and slowed. Still allows the target to call and SOS or scream for help and has obvious effects.
+
+“Injects a cocktail of drugs designed to limit the effectiveness of brain function. May cause screaming of random phrases and poisoning.” -Ability
+
+Stomach Bug – Injects the target with 4u Gastrotoxin ( 16 poison damage and vomiting ) and 16u of lipolicide. Causes the target to both vomit, get slightly poisoned and very, very hungry. Also deals poison damage if the target is already hungry!
+
+“Implants a parasite inside of the targets digestive system, intended to steal nutrients and ravage their insides. Poisonous, and causes a lot more damage to already hungry targets!”
+
+### Defensive
+
+#### 1. V – Bone buckler ( 3 DNA )
+
+To support the aggressive gameplay of Vraks, they will receive the bone buckler as their main shield ability. With a robust 50% reflection chance but a mere 25 HP with taking 75% of oncoming damage and only having a 5% reduction from blunt, slash and piercing ( Same as web shield ), it will break easily, not allowing for sustained use.
+
+Can shield bash, dealing 10 damage split between slash and caustic.
+
+“ Your forearm hardens and forms fragile calcium and salt crystals, deflecting lasers and serving as an easy to break shield.” - Ability
+“A tumor-like growth of white and sickly yellow crystals. Looks like something you would find in a cave, not on a person.” - Item
+
+#### 2. Self-Cocooning ( 2 DNA )
+
+Changeling stasis always felt clunky. You have to kill yourself and wait for quite some time to heal your wounds, unless you plan on using fleshmend and the panaceum. No longer! Removing those two abilities ( due to them being too powerful for a non-horror form changeling ), the ling instead gets the ability to wrap itself in a cocoon!
+
+Forces the changeling into a 10 second “stun” that causes them to be wrapped with a standing up cocoon. After the 10 seconds pass, all damage they have is healed. ( Like flesh heretic ability but cannot move while using it and takes longer ). DOES NOT GIVE YOU BACK ANY LOST BLOOD!
+
+“Allows you to wrap yourself with a fleshy cocoon that quickly melts and reforms your body, healing all wounds. Leaves you vulnerable to outside assault!” - Ability
+
+“A weird, pulsing cocoon. Looks very, very wrong. And isn’t something inside of it?” - Item
+
+#### 3. Tissue Dump ( 2 DNA )
+
+Running away? Good idea! Random desoxy injection? Boring and makes no sense. Chunks of flesh falling off you? Epic.
+
+Some blood and a suspicious meat piece ( from the meat anom monsters ) fall off from you as you equip an armour on your head and outer clothing slot.
+
+The armour has a NEGATIVE 10% debuff across the board for all damage but speeds you up by 30%.
+
+Prevents chemical regeneration while active.
+
+“Cuts off chunks of useless fat tissue from your exterior. Cannot be used when wearing outer clothing and/or a hat. Makes you a lot faster, but is clearly visible and makes you vulnerable to damage.” - Ability
+
+“An exposed skull. It is covered in a thin, blood-red membrane.” - Helmet
+
+“You can clearly see this persons ribcage and organs. It looks like a grotesque anatomy lesson. Horrifying.” - Outerwear
+#### 4. Bone Liquification –  (4 DNA)
+
+Linge doore linge doore linge doore
+
+Or in english, allowing lings to go under doors like a rat seems funny. You may worry about lings using this ability to steal guns or other gear from security. To that I respond with: Lings cannot use guns, and uh. Points in the general direction of sec redux. It also deals some damage to you when used, since your bones literally melted for a bit.
+
+Works for 5 seconds, has a 60 second cooldown.
+
+“Your bones turn liquid, allowing you to move under tables, airlocks and doors. Requires some time to melt and reform bones, and the process itself strains your body.” - Ability
+
+#### 5. V – Extreme Body Strain, F – Extreme Recessive Protection ( 4 DNA )
+
+Vraks is the aggressive path. I have a very fun idea for the aggressive path. Activating the “Extreme Body Strain” will make you immortal. Unable to be put into crit. Lasts around 30 seconds. The point of it is simple – for 30 seconds, you cannot be killed. What is the downside, you may ask? After the 30 seconds run out, you die.
+
+Hopefully you did so in a safe spot!
+
+“Puts extreme strain on your body, allowing your cells to regenerate to an insane degree for 30 seconds. The resulting damage causes you to be forcefully put into stasis once the 30 seconds run out.” - Ability
+
+Meanwhile, Fragrance gets something a bit more stealthy, but not a single bit less useful. Activating the ability gives you 95% resistance to all damage for 3 seconds. For those 3 seconds, you also become a lot slower ( around 40% ). Think of it as a parry!
+
+“Instantly hardens your skin to an insane degree, although the bulkiness restricts your movement. Lasts only a few seconds and has a lengthy cooldown, so don’t waste it!” - Ability
+
+Hopefully this should make ling a bit more tanky while not letting them be too strong.
+
+### Utility
+
+#### 1. Genetics Mastery ( 4 DNA )
+
+Allows you to turn on the genetics console menu at any time of your choosing for yourself. This menu is the exact same as the crew aligned genetics, but you do not deal damage to yourself when scrambling your DNA or changing the genomes. You cannot save the genes you have found.
+
+You are also unaffected by all negative genetic mutations.
+
+This should allow ling to FEEL like a genetically perfect organism, while also limiting its usefulness by not allowing you to keep the best ones.
+
+“Tunes your mind to be able to manipulate the genetics of your host’s body. Thanks to your knowledge, you are immune to all downsides from the process.” - Ability
+
+#### 2. Defensive Optimization ( 3 DNA )
+
+Gives you three main abilities:
+
+- Flash immunity
+- Welding immunity
+- Blood cult noslips ( not immune to lube )
+- Insulated gloves
+- Night vision
+
+A basic kit to allow ling to not get got by a flash, together with extra utility. Yes, ling is losing thermal vision in non-horror form.
+
+“Removes weaknesses posed by the natural body of your host. Your eyes turn immune to both welding sparks and flashes, and your feet grow miniature spider legs that impale the floor, making you immune to slipping. Your hands also become immune to shocks!” - Ability
+
+#### 3. V - Manual override, F – Light Reflection ( 4 DNA )
+
+When activated, puts 8u of a new chemical inside of you.
+
+It is metabolized at 1u per second, and when above 5u and below 15u, it heals as fast as omnizine while also providing a small movement speed boost. However, when it goes below 5u or above 15u, it instead slows you down, forces you to puke and deals damage to you.
+
+You need to time your manual overrides, and if you fail to do so, the drawbacks will be debilitating. You can of course prepare with charcoal ( which is intended ), but it is, in general, rewarding a more risky playstyle.
+
+“Forces you to manually take over all body functions. A less extreme version of the manual horror form. Rewards timed uses of the ability with passive healing and a movement speed boost. Needs to be repeated in a rhythm or the effects will be reversed!” - Ability
+
+Light reflection is quite different. If causes you to look invisible just like a ninja is ( so shimmering instead of fully invisible ), gives you a small movement speed boost and a whopping 50% reflect chance. However, every second your body is injected with 2u of a new chemical ( that is metabolized at 1u per second ). When it goes above 10u, your body starts bleeding, at 30u you slowly begin taking eye damage, and at 60u, you start convulsing and are not only bleeding but also being dealt slash damage from your skin layer blood vessels falling apart from the strain. 
+
+“Forces your blood to coagulate on top of your skin, giving an invisibility-like effect that also reflects lasers. Allows your muscles to remove lactic buildup much quicker, at the cost of a risk of eye and blood vessel damage if overused for too long.” - Ability
+
+#### 4. Handspider ( 10u of biomass )  – Supportive minion, its purpose is to be a cheap distraction that will annoy the target while the changeling goes in for the kill. It has 30 max HP and a 7 blunt melee attack. It has two abilities – Burrow and Haymaker. 
+- Burrow may be used on any crew, alive or dead. The handspider burrows into its chest, leaving a gaping hole and requiring surgery to remove it. If it stays inside for 10 minutes, it will pop out as a “Chestgnawer” that can be eaten by the changeling to acquire 2 DNA points. The Chestgnawer has 100 max HP and a 15 brute melee attack split between slash and pierce.
+-Haymaker is a 15 blunt attack that forces the target to fall prone ( without stunning them ). It has a long cooldown to prevent spamming.
+
+#### 5. Eyespy ( 15u of biomass ) – A weak scout minion, its purpose is to scout out targets and threats to the changeling. 20 max HP and a 3 blunt melee attack. . They have the following abilities:
+- Cry may be used to create a small, 30u puddle of water under the eyespy, which may slip anyone coming near.
+- Thermal vision
+- Hide – When used, allows you to hide under tables and move under airlocks.
+- Mimicry – Reskinned chameleon projector.
+
+#### 6. Legipede ( 15u of biomass ) – A powerful combat minion, its purpose is to tank hits for the changeling and, in big enough numbers kill and bring targets to their master. Cannot crawl under objects. It has 100 max HP and a 12 blunt melee attack. It also has 2 powerful abilities – Slam and Dirty Kick.
+- Slam is a powerful, multi use ability. When used on an object, it is forced open. Locker? Open. Unbolted airlock? Open. When used on a person, it instead deals 30 blunt and deals 50 stamina damage. To compensate for its power, it has a long cooldown.
+- Dirty Kick is only usable on living entities that are prone. It injects 10u of chloral hydrate and stuns them. This allows the legipede to work together with the handspider for quick takedowns.
+
+#### 7. Flesh Spider ( 20u of biomass, isn’t free shift start ) – The most powerful minion, which can be unlocked after 3 absorbs for 5 DNA points. When a changeling lays a flesh spider egg, it is a ghostrole that is a team antagonist with other flesh spiders ( but not the changeling ). The flesh spider deals 15 structural and 14 damage split between 8 slash and 6 poison. They also come with 5 abilities:
+- Hivebuild is an RCD like ability that allows the flesh spider to construct flesh structures. They are weaker than even normal walls but fit the theme and allow reinforcement of chokepoints. Could also have some special structures?
+- Bite – Injects 5u of licox into the target.
+- Regenerate – A weaker fleshmend, injects the fleshspider with omnizine, saline and tranx acid.
+- Flesh cocoon – A stronger cocoon, completely halts rotting and has a special interaction with the next ability. Takes a lot longer to break open from a normal cocoon.
+- Lay eggs – A flesh spider can lay eggs on any flesh cocoon. They hatch in 10 minutes, creating a new flesh spider. If they hatch, the person inside is dealt 60 brute damage split equally between all damage types. A flesh spider can only create a total of 2 new flesh spiders.
+
+
 
 ### Horror Form
 
-TODO
+Horror forms will not work the way the normal ling does. When you buy a kit, your abilities in horror form change to that kit until you buy another one. The kits you can buy are decided by the amount of DNA you are able to afford ( and the hive you chose ).
+
+The horror form shop is split into two categories:
+
+- Kits
+- Evolution
+
+They serve an entirely different purpose, which I will explain below.
+Kits are the main “Weapons” of the changeling. Things like flesh tentacles, armblades, smashing through airlocks, all of that can be found in that shop category.
+Evolution, however, is the “passive” abilities of the changeling. In that shop menu you can spend DNA on direct upgrades to your form. Extra armour, less biomass spent per second ( but not 0 ), additional movement speed, all of that can be improved ( for the horror form ), all in exchange for DNA you can’t spend on kits or abilities. This provides a conflict for the players – do you want to improve your base “stats” or instead focus on acquiring more powerful tools?
+
+#### 0. Shared abilities
+
+- Devour:
+
+Tears off the head of a dead crewmember. Gives 2 DNA and 15 max biomass.
+
+“Consume the head of a victim for much faster but less efficient way of procuring DNA. The excess tissue gets transformed into biomass” – Ability
+
+- Transform:
+
+Turns you back into normal form, this takes 5 seconds and puts you in an obvious looking cocoon.
+
+“Return back to your disguised form. Do so in a safe spot, as it both leaves you vulnerable and is not subtle at all.” - Ability
+
+- 
+
+#### Vraks Kit
+
+- Hammerfist
+
+An upgraded armblade with a much bigger range and better damage. What not to love?
+
+Deals 40 damage, compromised of 20 blunt and 20 caustic. In addition to that, deals 100 structural damage per hit.
+
+“A gigantic, jagged bone, shaped like a hammer. Heavy enough to crush steel, its surface sizzles with a powerful, deeply red acid.” - Item
+
+- Crushing Rush
+
+You charge up for 2 seconds, after which you launch forwards at terrifying speeds, breaking any structure in the way. Launches an invisible projectile that is connected to your body, that deals 300 structural damage to anything it touches. Deals 30 blunt to anything that is alive.
+
+“Launches you forward, crushing anything on the way. Best used against non-organic targets, to clear the way during your rampage.” - Ability
+
+- Thousand Bites
+
+Chomps on the person. Very fast to attack with, dealing 15 damage split between slash, piercing and caustic. Every chomp has a small chance to tear off a limb, and if successful restores biomass and some health.
+
+“Hundreds, upon hundreds of maws open, gnawing on anything that comes near. Has a chance to tear off pieces of the target, absorbing them.” - Ability
+
+“Countless mouths gnawing at bones and meat they cannot yet reach. Chewing on their own gums, they bleed, waiting for more victims.” - Item
+
+- Teeth Launcher
+
+Shoots out a fleshy blob that explodes into a stinger-like explosion of teeth. Every single tooth is a 1:1 copy of the Fragrance revolver projectile. Recharges every 3 seconds, like a slower PKA. Should be a good combo with the hammerfist for anyone at long range.
+
+“A gigantic, cannon-shaped limb. You hear the sound of gnawing teeth inside.” - Item
+
+- Cancerous Growths
+
+Fleshmend. Injects you with ichor at a cost of biomass. Has a short cooldown, the biomass cost is the main downside to spamming it.
+
+“Sacrifices biomass to speed up the natural health regeneration using tumors. Non-sustainable without fresh harvests.” - Ability
+
+Base stats:
+
+250 max HP, +30% movement speed, 1 biomass per second, same armour as HoS hardsuit
+
+Evolution upgrades:
+
+Regeneration ( Starts by injecting omnizine, can upgrade to omni + grani, then omni + grani + healium )
+
+Spacing resistance ( 4 DNA instead of 2 to upgrade )
+
+Armour ( Starts at HoS hardsuit level, upgrades to nukie hardsuit then jugsuit )
+
+#### Fragrance Kit: 
+
+      - Bone harpoon launcher:
+Shoots out slug-like projectiles that deal 25 caustic and 25 piercing damage. Needs to be pumped between shots, 5 ammo max, restores a harpoon every 3 seconds. ( Harpoons are projectiles, not entities like a throwing knife ) 
+
+      - Blood Scattershot
+Shoots +/- 20 blood projectiles with a gigantic amount of scatter. Each projectile deals 25 structural, 5 caustic and 2 blunt damage. Has 1 shot that recharges every 5 seconds. 
+
+      - Flesh Jammer
+Reskinned radio jammer with a screen-wide range. Infinite power and turned on by default. 
+
+      - Periscope Eyes
+Built-in toggeable thermal vision and binoculars. ( The toggle is separate for them ).
+ 
+      - Flesh Tentacles
+Disarms whoever you shoot, instantly eating what they were holding and restoring a small amount of chemicals. If the person you hit is not holding anything, they are eaten, stunning you for 1 second, acting like a faster horror form absorb ( with a horrifying sound effect and red text popup ) 
+15 second cooldown, 30 seconds if it eats a person.
+
+      - Bone Spurt
+For 5 seconds, lowers movement speed by 30%, but makes you flame-proof and increases your armour from sec hardsuit level to chitinous armour level. 
+
+Base stats: 300 max HP Sec hardsuit armour 115% movement speed 
+
+Upgrades: 
+-Base reflect chance 20%/40%/60% 
+
+-Biomass drain lowered to 0.5/s  ( 4 DNA to upgrade )
+-Movement speed increase to 130%/150%  
+
+## Roundflow & Player interaction
+
+### Roundflow
+
+A changeling should have the same impact as a heretic in a round where they are a side antagonist, and an even bigger one on a round where 3-4 changelings fight the crew and each other for dominance. They are flesh horrors, and even shift start can pose trouble to a lone HoS or captain. With time and absorbed victims, special gear may be required from cargo and science to properly deal with and contain the changelings. Unlike a heretic, however, a changeling being discovered won’t lead to an awkward oubilette and a push out of brig. Instead, it will turn into a whole new experience for both the ling and the crew:
+
+- While the crew will be forced by the command manual ( And thus, their heads of staff ) to keep the threat alive, there will be many tools to do so. All of them are non-perfect though, and that’s by design. While greed may cause the crew to exploit the changeling ( To obtain rare materials for special equipment, upgrades to existing gear and spesos/scrip ), a single mistake or letting the ling gather chemicals for long enough ( Or maybe even an antag breaking them out to create a distraction for themselves? ), will allow it to go on another rampage.
+
+- The changeling, while basically „perma-d”, will have a lot of things to do. Modifying their own genetics, or using synthesis to slowly regain their lost resources until they have enough chemicals and biomass to break out. Keeping a ling contained is a dangerous game, where you have to set up reagent puddle traps, force it to breathe high concentrations of BZ and possibly even use surgery to vivisect it to keep its biomass low.
+
+## Technical Considerations
+This will need a lot of work. I tried to keep as many systems as I could to vanilla, and am open to any feedback from programmers ( AND HELP, SPRITING AND PROGRAMMING HELP SPECIFICALLY ) on how to make this easier to implement. In addition, a lot of what wizden has been doing on their version of ling ( And possibly shared to the macrocosm ) can be reused after I took a better look at it.
