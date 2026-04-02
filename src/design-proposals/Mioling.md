@@ -90,7 +90,7 @@ As such, I hope that by providing the changeling AND its victims to have fun wil
 #### Numbers
 
 
-#### Hives
+#### Hives - Disregard. Flesh cocoon will be a shift start ability that works like arachnid cocooning. Hivebuilding may be developed in the future but shall be ignored for now.
 
 	A big problem that changelings had is that there was no reward for taking things slow and preparing for a murder. Using a cryo or lethargic sting on a victim that wandered off into maints and stabbing them to death then absorbing on the spot had the exact same result as luring them to a secluded location with a well prepared reason and hiding the body in a secret room. No longer! To encourage creating secret bases, the changeling will have a special, albeit costly hivebuilding ability.
 
@@ -163,9 +163,7 @@ If you insert a blood sample inside, it will start a 3 minute timer that will fu
 
 If it was a normal blood sample, you will receive a blood nugget, which is overall useless. It will also cause a short, station wide blackout.
 
-If it is a changeling blood sample, you will receive a blood metal nugget, which can be used to create some powerful traditional weaponry such as swords, plate armor and shields in addition to identifying the changeling. The created items will have horrible damage and defence ( crowbar tier damage for weapon and low resistances for armor ), but the sword will have 1:1 lifesteal and the armor will have slow passive healing. The shield will be nearly unbreakable but take low amounts of total damage.
-
-The full process 
+If it is a changeling blood sample, you will receive a blood metal nugget, which can be used to create some powerful traditional weaponry such as swords, plate armor and shields in addition to identifying the changeling. The created items will have horrible damage and defence ( crowbar tier damage for weapon and low resistances for armor ), but the sword will have 1:1 lifesteal and the armor will have slow passive healing. The shield will be nearly unbreakable but will only block a small amount of damage ( low armour value ).
 
 #### Dealing with the changeling
 
@@ -235,6 +233,10 @@ Built-in voice mask. Turned off by default, free to use.
 #### 5. Synthesis
 
 A small window pops up with a few “tetris block” shapes on the bottom and a grid on top. The player needs to fit the blocks into the grid ( Can use inventory code ) until it is fully covered. Doing so will restore a small amount of chemicals. These chemicals can go over the maximum amount you can have from your passive regeneration ( And bypass the chemical limit implant! ). A good thing to pass the time with while waiting for victims, or being imprisoned! Can have a small bonus of biomass every 5(?) or so times it is completed.
+
+#### 6. Flesh Cocoon
+
+Creates a hanging cocoon on the side of a wall. A non-rotten crew corpse can be dragged onto it to begin a 5 minute process that increases both DNA and biomass gain on absorb. From 4 DNA to 5 and from 5 max biomass to 20. Also restores ALL biomass ( 999999 code wise ). Has 60 HP and when destroyed spits out the person.
 
 ### 1. The United Hives of Fragrance
 
