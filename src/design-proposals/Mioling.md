@@ -2,7 +2,7 @@
 
 | Designers | Implemented | Links |
 |---|---|---|
-| miosar | Needs coders and spriters! | No google doc or anything yet |
+| miosar | No | No google doc or anything yet |
 
 ## Overview
 
