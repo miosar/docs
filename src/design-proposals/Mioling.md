@@ -66,6 +66,8 @@ To encourage this, minions will allow the changeling to secure a kill, surroundi
 
 This may also be helped by Fern’s bloodcult code, as the shade uses a similar “anchor” system that allows it to return to the bloodstone without making either of them a ghostrole.
 
+#### All changeling minions recieve mouse night vision by default.
+
 Handspider ( 10u of biomass )  – Supportive minion, its purpose is to be a cheap distraction that will annoy the target while the changeling goes in for the kill. It has 30 max HP and a 7 blunt melee attack. It has two abilities – Burrow and Haymaker. 
 - Burrow may be used on any crew, alive or dead. The handspider burrows into its chest, leaving a gaping hole and requiring surgery to remove it. If it stays inside for 10 minutes, it will pop out as a “Chestgnawer” that can be eaten by the changeling to aquire 2 DNA points. The Chestgnawer has 100 max HP and a 15 brute melee attack split between slash and pierce.
 -Haymaker is a 15 blunt attack that forces the target to fall prone ( without stunning them ). It has a long cooldown to prevent spamming.
@@ -486,7 +488,13 @@ Turns you back into normal form, this takes 5 seconds and puts you in an obvious
 
 “Return back to your disguised form. Do so in a safe spot, as it both leaves you vulnerable and is not subtle at all.” - Ability
 
-- 
+- Emergency Healing
+
+Passive ability. When under 10% HP, cannot lose HP and instead lose biomass at a rate of 1 biomass per 10 HP.
+
+- Pyrophobia
+
+Passive ability. When suffering from any fire stacks, you cannot use any active abilities, your movement speed is decreased by 30% and your chemical regeneration is completely halted. The changeling cannot stop, drop and roll.
 
 #### Vraks Kit
 
