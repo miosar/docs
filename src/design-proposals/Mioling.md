@@ -228,6 +228,8 @@ Look at absorbing table. Costs half of your chemicals, which should take a long 
 
 Reworked a bit. Instead of being an active ability, works passively. When you die, you revive with all your chemicals after exactly 1 minute. You cannot control this in any way. If you want to die and revive, you have to beat/poison yourself until you die!
 
+If someone performs CPR on you, and your harm mode is turned on, you instantly revive, tearing off their arms and restoring a small amount of biomass.
+
 #### 4. Voiceshift
 
 Built-in voice mask. Turned off by default, free to use.
@@ -242,7 +244,7 @@ Creates a hanging cocoon on the side of a wall. A non-rotten crew corpse can be 
 
 ### 1. The United Hives of Fragrance
 
-	Initially over a dozen hives that fought over the only non-frozen part of the changeling home planet, they were forced to unite due to the threat posed to them by the newly formed Nanotrasen Vespidae Korps. In-lore, they were the most advanced hive on the planet, being the only one with written language and a slowly developing science base. Slowly entering the Earth equivalent of the ancient times with stone buildings and domestication slowly starting to develop metalworking, their chances to create countries and societies has been fully destroyed due to Nanotrasen’s newly developed Korps kidnapping entire hives for experimentation, and after the potential of changeling tissues has been discovered, exploitation. 
+	Initially over a dozen hives that fought over the only non-frozen part of the changeling home planet, they were forced to unite due to the threat posed to them by the newly formed Nanotrasen Vespidae Korps. Living under the ice, the caves forced them to communicate mostly via pheromones. In-lore, they were the most advanced hive on the planet, being the only one with written language and a slowly developing science base. Slowly entering the Earth equivalent of the ancient times with stone buildings and domestication and starting to develop metalworking, their chances to create countries and societies has been fully destroyed due to Nanotrasen’s Korps kidnapping entire hives for experimentation, and after the potential of changeling tissues has been discovered, exploitation. 
 
 	Due to not having an inherent advantage like the member of Vraks that took over the original Nanotrasen expedition, their numbers quickly succumbed due to the mass-harvesting techniques used by the invaders. What was left of the once-glorious hives turned towards a stealthy approach to revenge.
 
@@ -312,7 +314,7 @@ Has 12 teeth “bullets” inside. The revolver itself is silent like a cobra an
 
 Its unique mechanic is simple. You pay an upfront cost of ½ of all of your chemicals for it. However, every 2 seconds it regrows a bullet ( 24 seconds for the whole capacity ). This means that as long as you keep it out for a long time, it will, over time, pay the gigantic cost off.
 
-“Forms your hand into a projectile shooting apparatus inspired by Syndicate weaponry. Its ammo recharges quickly and it has a large maximum capacity, but singular shots deal low, mostly caustic damage. Uses a lot of chemicals due to its complexity!” - Ability
+“Forms your hand into a projectile shooting apparatus inspired by the otherworldly weaponry. Its ammo recharges quickly and it has a large maximum capacity, but singular shots deal low, mostly caustic damage. Uses a lot of chemicals due to its complexity!” - Ability
 
 “A fleshy mockery of a revolver. It pulses in a steady rhythm, as if following a heartbeat. The eye on its side gazes deep into your soul.” - Item
 
@@ -321,6 +323,8 @@ Its unique mechanic is simple. You pay an upfront cost of ½ of all of your chem
 Inspired by a ss13 mechanic regarding hard grabs and cuffing, this ability should allow lings to punish anyone trying to 1v1 them without preparation.
 
 Shoots out a projectile that, when it hits a person, applies a bola to them and deals 50 stamina damage.
+
+If it hits a stunned person, it cuffs them instead.
 
 “Loosens your biceps and triceps muscles, allowing them to be shot out as a makeshift bola.” - Ability
 
@@ -432,9 +436,9 @@ It is metabolized at 1u per second, and when above 5u and below 15u, it heals as
 
 You need to time your manual overrides, and if you fail to do so, the drawbacks will be debilitating. You can of course prepare with charcoal ( which is intended ), but it is, in general, rewarding a more risky playstyle.
 
-“Forces you to manually take over all body functions. A less extreme version of the manual horror form. Rewards timed uses of the ability with passive healing and a movement speed boost. Needs to be repeated in a rhythm or the effects will be reversed!” - Ability
+“Forces you to manually take over all body functions. Rewards timed uses of the ability with passive healing and a movement speed boost. Needs to be repeated in a rhythm or the effects will be reversed!” - Ability
 
-Light reflection is quite different. If causes you to look invisible just like a ninja is ( so shimmering instead of fully invisible ), gives you a small movement speed boost and a whopping 50% reflect chance. However, every second your body is injected with 2u of a new chemical ( that is metabolized at 1u per second ). When it goes above 10u, your body starts bleeding, at 30u you slowly begin taking eye damage, and at 60u, you start convulsing and are not only bleeding but also being dealt slash damage from your skin layer blood vessels falling apart from the strain. 
+Light reflection is quite different. It causes you to look invisible just like a ninja is ( so shimmering instead of fully invisible ), gives you a small movement speed boost and a whopping 50% reflect chance. However, every second your body is injected with 2u of a new chemical ( that is metabolized at 1u per second ). When it goes above 10u, your body starts bleeding, at 30u you slowly begin taking eye damage, and at 60u, you start convulsing and are not only bleeding but also being dealt slash damage from your skin layer blood vessels falling apart from the strain. 
 
 “Forces your blood to coagulate on top of your skin, giving an invisibility-like effect that also reflects lasers. Allows your muscles to remove lactic buildup much quicker, at the cost of a risk of eye and blood vessel damage if overused for too long.” - Ability
 
@@ -495,6 +499,14 @@ Passive ability. When under 10% HP, cannot lose HP and instead lose biomass at a
 - Pyrophobia
 
 Passive ability. When suffering from any fire stacks, you cannot use any active abilities, your movement speed is decreased by 30% and your chemical regeneration is completely halted. The changeling cannot stop, drop and roll.
+
+- The Most Dangerous Game
+
+Passive ability. When transforming into horror form let out a horrible screech that stuns anyone in a 9 tile radius ( without disarming or going prone ) for the duration of your transformation +1 second. The scream can be heard on the entire station.
+
+1 minute after the scream is heard, red alert is activated by CC with the following message:
+
+"Level 3 biohazard has been detected on-site. Crew members are advised to listen to heads of staff and security for orders."
 
 #### Vraks Kit
 
@@ -572,6 +584,7 @@ Upgrades:
 
 -Biomass drain lowered to 0.5/s  ( 4 DNA to upgrade )
 -Movement speed increase to 130%/150%  
+
 
 ## Roundflow & Player interaction
 
