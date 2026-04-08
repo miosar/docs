@@ -292,7 +292,7 @@ Acidic bite – 18 units of Fluorosulfuric acid + 6 units of licoxite. Shocks th
 “Your fangs fill with a sizzling venom, that upon biting melt the insides of your target, causing them to spasm in pain. It is quite obvious both to the target and anyone around that they were bitten!” - Ability
 
 
-Asphyxiating bite – 7 units of heartbreaker toxin + 10u of glue. Enough to kill someone who doesn’t epi pen themselves ( Exactly 100 asphyx, but natural asphyx regen might save them. Depends, really. You should finish them off regardless. Glue makes them hallucinate+mute for 100 seconds. )
+Asphyxiating bite – 7 units of heartbreaker toxin + 10u of glue. Enough to kill someone who doesn’t epi pen themselves ( Exactly 70 asphyx. 100 seconds of rainbow screen and mute as well! )
 “Your fangs fill with a powerful poison that sucks the air out of your victims lungs and prevents them from screaming. Is easily countered by epinephrine, so be careful to not rely on it too much. It is quite obvious both to the target and anyone around that they were bitten!”
 
 #### 4. Acidspit ( 2 DNA )
